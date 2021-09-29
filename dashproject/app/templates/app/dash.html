@@ -1,0 +1,6 @@
+{% extends 'app/home.html' %}
+{% load plotly_dash %}
+{% block content%}
+<h1>My Dash</h1>
+<div>{% plotly_app name='Example' ratio=0.5%}</div>
+{% endblock %}
