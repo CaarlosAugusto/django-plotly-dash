@@ -12,3 +12,5 @@ $ docker-compose build
 
 $ docker-compose -f "docker-compose.yml" up -d --build
 ```
+
+Access http://127.0.0.1:8000/
